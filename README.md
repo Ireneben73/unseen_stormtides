@@ -21,3 +21,9 @@ The code consists of the following files and directories:
    * **p2_preprocess_GTSM_ERA5.py:** script to prepare the model files of GTSM forced with ERA5
    * **p2b_postprocess_GTSM:** script to postprocess the model files output of the GTSM forced with SEAS5
    * **p2b_postprocess_GTSM_ERA5:** script to postprocess the model files output of the GTSM forced with ERA5
+ 
+* **RPs:** folder containing the statistical analysis of the storm tides
+   * **p1_fidelity_POT.py:** script performing the bias test of the storm tides per station
+   * **p1_RPs_merge:** script merging the bias test of all stations
+   * **p1_RPs_POT:** script fitting the POT-GPD to all stations
+   * **p2_plot_Fig2_multiple_cities_POT_CI_gesla.py:** script plotting the empirical and POT-GDP loss-exceedance curves of 18 cities, including empirical loss-exceedance curves from GESLA stations nearby
