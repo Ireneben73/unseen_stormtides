@@ -13,3 +13,11 @@ The code consists of the following files and directories:
    * **p5_UNSEEN_Fidelity_significance.py:** script that analyses the significance of the permutation test for all the year
    * **p5_UNSEEN_Fidelity_permutation_seasons.py:** script that does the permutation test for each season
    * **p5_UNSEEN_Fidelity_significance_seasons.py:** script that analyses the significance of the permutation test for each season
+ 
+* **gtsm:** folder containing the scrips to run GTSM
+   * **job_master_script_v2.sh:** bash script to modify the bash script job_template.sh to runs multiple GTSM workflows in parallel
+   * **job_template:** bash script template that runs the GTSM workflow for a certain ensemble member and start date
+   * **p2_preprocess_GTSM.py:** script to prepare the model files of GTSM forced with SEAS5
+   * **p2_preprocess_GTSM_ERA5.py:** script to prepare the model files of GTSM forced with ERA5
+   * **p2b_postprocess_GTSM:** script to postprocess the model files output of the GTSM forced with SEAS5
+   * **p2b_postprocess_GTSM_ERA5:** script to postprocess the model files output of the GTSM forced with ERA5
